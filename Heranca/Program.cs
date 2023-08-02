@@ -42,7 +42,7 @@ namespace Heranca
             }
             double sum = 0.0;
             Console.WriteLine();
-            Console.WriteLine("TAXES PAID:");
+            Console.WriteLine("PAID TAXES:");
             foreach (TaxPayer taxPayer in list)
             {
                 double tax = taxPayer.GetTaxValue();
